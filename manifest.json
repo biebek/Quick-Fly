@@ -1,0 +1,13 @@
+{
+	"manifest_version":2,
+	"name": "Quick Fly",
+	"description":"The best way to look for the flights from the most famous websites.",
+	"version":"1.0.0",
+	"icons":{"128":"icon.PNG"},
+	"browser_action":{
+		"default_icon": "icon.PNG",
+		"default_popup": "popup.html"
+		},
+		
+		"permissions": ["activeTab"]
+}

@@ -1,0 +1,132 @@
+<!doctype html>
+
+<html>
+
+<head>
+  <title> Quick Fly Launcher</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+  
+  <style>
+    /* Modal Structure */
+    html,
+    body {
+      font-family: 'Times New Roman', Times-serif;
+      font-size: 14px;
+      margin: 0;
+      min-height: 180px;
+      padding: 0;
+      width: 384px;
+    }
+    h1 {
+      font-family: 'Menlo', monospace;
+      font-size: 22px;
+      font-weight: 400;
+      margin: 0;
+      color: #2f5876;
+    }
+    a:link,
+    a:visited {
+      color: #000000;
+      outline: 0;
+      text-decoration: none;
+    }
+    img {
+      width: 30px;
+    }
+    .modal-header {
+      align-items: center;
+      border-bottom: 0.5px solid #dadada;
+    }
+    .modal-content {
+      padding: 0 22px;
+    }
+    .modal-icons {
+      border-top: 0.5px solid #dadada;
+      height: 50px;
+      width: 100%;
+    }
+    .logo {
+      padding: 16px;
+    }
+    .logo-icon {
+      vertical-align: text-bottom;
+      margin-right: 12px;
+    }
+    .version {
+      color: #444;
+      font-size: 18px;
+    }
+    .flex-container {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 22px;
+    }
+    .flex {
+      opacity: 1;
+      transition: opacity 0.2s ease-in-out;
+      width: 120px;
+    }
+    .flex:hover {
+      opacity: 0.4;
+    }
+    .flex .fa {
+      font-size: 40px;
+      color: #2f5876;
+    }
+  </style>
+  <script src="popup.js"></script>
+</head>
+
+<body style = "background-color:powderblue;">
+  <div class="modal-header">
+    <h1 class="logo">
+      <img class = "logo-icon" src="images/quickFly-icon.PNG">Quick FLy
+      <span class="version">(1.0.0)</span>
+    </h1>
+  </div>
+  <div class="modal-content">
+    <p>Select Your Flight From these Famous Sites</p>
+  </div>
+  <div class="modal-icons">
+    <div class="flex-container">
+     
+      <div class="flex">
+        <a href="https://www.studentuniverse.com" target="_blank">
+          <img src="studentuniverse.png">
+        </a>
+      </div>
+
+      <div class="flex">
+        <a href="https://www.bookingbuddy.com" target="_blank">
+          <img src="bookingbuddy.png">
+        </a>
+      </div>
+
+      <div class="flex">
+        <a href="https://www.kayak.com" target="_blank">
+          <img src="kayak.png">
+        </a>
+      </div>
+      
+      <div class="flex">
+        <a href="https://www.cheapoair.com/" target="_blank">
+          <img src="cheap.png">
+        </a>
+      </div>
+
+	<div class="flex">
+        <a href="https://www.google.com/flights" target="_blank">
+          <img src="googleFlights.png">
+        </a>
+       </div>
+
+        <div class="flex">
+        <a href="https://www.skyscanner.com/" target="_blank">
+        <img src="skyScanner.png">
+        </a>
+        </div>
+    </div>
+  </div>
+</body>
+
+</html>
